@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 
 import './styles/quasar.styl'
-import lang from 'quasar-framework/i18n/fr-fr'
+import lang from 'quasar-framework/i18n/fr'
 import 'quasar-extras/material-icons'
 import Quasar, {
   QBtn,
