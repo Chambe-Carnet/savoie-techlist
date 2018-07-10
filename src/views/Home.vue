@@ -1,6 +1,6 @@
 <template>
-  <q-page class="flex flex-center">
-    <img alt="Quasar logo" src="../assets/logo.png">
+  <q-page class="flex">
+    <my-map />
   </q-page>
 </template>
 
@@ -8,7 +8,9 @@
 </style>
 
 <script>
+import Map from '@/components/Map'
 export default {
+  components: { 'my-map': Map },
   name: 'PageHome'
 }
 </script>
