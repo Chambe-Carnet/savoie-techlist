@@ -16,8 +16,8 @@
         />
 
         <q-toolbar-title>
-          Quasar App
-          <div slot="subtitle">Running on Quasar v{{ $q.version }}</div>
+          Savoie TechList
+          <div slot="subtitle">Une carte des 2 Savoie pour repérer les startups, les investisseurs, les incubateurs et tous les acteurs de l'économie numérique.</div>
         </q-toolbar-title>
       </q-toolbar>
     </q-layout-header>
@@ -71,19 +71,19 @@
 </template>
 
 <script>
-import { openURL } from 'quasar'
+import { openURL } from "quasar";
 
 export default {
-  name: 'LayoutDefault',
-  data () {
+  name: "LayoutDefault",
+  data() {
     return {
       leftDrawerOpen: this.$q.platform.is.desktop
-    }
+    };
   },
   methods: {
     openURL
   }
-}
+};
 </script>
 
 <style>
