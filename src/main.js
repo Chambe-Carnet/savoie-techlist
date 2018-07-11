@@ -19,7 +19,14 @@ import Quasar, {
   QItemSeparator,
   QItem,
   QItemSide,
-  QItemMain
+  QItemMain,
+  QCard,
+  QCardTitle,
+  QCardMain,
+  QCardMedia,
+  QCardSeparator,
+  QCardActions,
+  QIcon
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -38,7 +45,14 @@ Vue.use(Quasar, {
     QItemSeparator,
     QItem,
     QItemSide,
-    QItemMain
+    QItemMain,
+    QCard,
+    QCardTitle,
+    QCardMain,
+    QCardMedia,
+    QCardSeparator,
+    QCardActions,
+    QIcon
   },
   directives: {
   },
