@@ -1,6 +1,7 @@
 <template>
   <q-page class="flex">
-    <my-map />
+    <l-map />
+    <item />
   </q-page>
 </template>
 
@@ -9,8 +10,13 @@
 
 <script>
 import Map from '@/components/Map'
+import Item from '@/components/Item'
+
 export default {
-  components: { 'my-map': Map },
+  components: { 
+    'l-map': Map,
+    Item
+  },
   name: 'PageHome'
 }
 </script>
