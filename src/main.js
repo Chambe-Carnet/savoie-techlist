@@ -26,7 +26,9 @@ import Quasar, {
   QCardMedia,
   QCardSeparator,
   QCardActions,
-  QIcon
+  QIcon,
+  QPopover,
+  CloseOverlay
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -52,9 +54,11 @@ Vue.use(Quasar, {
     QCardMedia,
     QCardSeparator,
     QCardActions,
-    QIcon
+    QIcon,
+    QPopover
   },
   directives: {
+    CloseOverlay
   },
   plugins: {
   }

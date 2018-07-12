@@ -1,7 +1,9 @@
 <template>
   <q-page class="flex">
     <l-map />
-    <item />
+    <div>
+      <item />
+    </div>
   </q-page>
 </template>
 
